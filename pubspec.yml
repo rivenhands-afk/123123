@@ -1,0 +1,16 @@
+name: nekoweb_blog
+description: "Nekoweb auto-publisher app"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flet: ^0.25.0 # или твоя текущая версия flet
+  requests: ^2.31.0
+
+flutter:
+  uses-material-design: true
